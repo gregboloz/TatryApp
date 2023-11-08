@@ -13,6 +13,21 @@
         android:theme="@style/Theme.TatryApp"
         tools:targetApi="31">
         <activity
+            android:name=".EmergencyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EncyklopediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MapyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PogodaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

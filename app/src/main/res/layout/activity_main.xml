@@ -22,7 +22,7 @@
 
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/mapaButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -35,10 +35,11 @@
             android:insetRight="4dp"
             android:insetBottom="4dp"
             android:text="Mapa"
+            android:textSize="20dp"
             app:cornerRadius="40dp" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/pogodaButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="0"
@@ -51,10 +52,11 @@
             android:insetRight="4dp"
             android:insetBottom="4dp"
             android:text="Pogoda"
+            android:textSize="20dp"
             app:cornerRadius="40dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/newsyButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
@@ -67,22 +69,24 @@
             android:insetRight="4dp"
             android:insetBottom="4dp"
             android:text="Newsy"
+            android:textSize="20dp"
             app:cornerRadius="40dp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/encyklopediaButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_row="1"
             android:layout_rowWeight="1"
             android:layout_column="1"
             android:layout_columnWeight="1"
-            android:layout_gravity="fill"
+            android:layout_gravity="fill_horizontal"
             android:insetLeft="4dp"
             android:insetTop="4dp"
             android:insetRight="4dp"
             android:insetBottom="4dp"
             android:text="Encyklopedia"
+            android:textSize="20dp"
             app:cornerRadius="40dp" />
     </GridLayout>
 
@@ -104,7 +108,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="88dp"
-        android:text="Button"
+        android:text="E M E R G E N C Y"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
